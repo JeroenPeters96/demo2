@@ -1,7 +1,7 @@
 package com.example.demo2.Controller;
 
-import com.example.demoeventsourcing.Commands.CreateObject;
-import com.example.demoeventsourcing.Repo.TestRepo;
+import com.example.demo2.Commands.CreateObject;
+import com.example.demo2.Repo.TestRepo;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.queryhandling.QueryGateway;
 import org.springframework.beans.factory.annotation.Autowired;

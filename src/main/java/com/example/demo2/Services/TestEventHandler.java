@@ -1,5 +1,8 @@
 package com.example.demo2.Services;
 
+import com.example.demo2.Event.ObjectCreated;
+import com.example.demo2.Model.TestObject;
+import com.example.demo2.Repo.TestRepo;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
